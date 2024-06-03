@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - 01 DOM</title>
+</head>
+<body>
+    <ul>
+        <li>Ana</li>
+        <li>Carolina</li>
+        <li>Rodrigues</li>
+    </ul>
+    <script>
+        itens_lista = document.getElementsByTagName("li");
+
+        for( let i = 0; i < itens_lista.length ; i++){
+             console.log(itens_lista[i].textContent);
+        }
+    </script>
+</body>
+</html>
