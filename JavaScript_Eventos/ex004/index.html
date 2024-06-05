@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+</head>
+
+<body>
+    <input type="text" id="meuCampo" onblur="verificarNumero()">
+
+    <script>
+        function verificarNumero() {
+            var valor = document.getElementById("meuCampo").value;
+            if (!isNaN(valor)) {
+                alert("É um número");
+            } else {
+                alert("Não é um número");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

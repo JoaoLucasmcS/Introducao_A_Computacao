@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex005</title>
+</head>
+
+<body>
+    <input type="checkbox" id="minhaCheckbox" onchange="mostrarEstado()">
+
+    <script>
+        function mostrarEstado() {
+            var checkbox = document.getElementById("minhaCheckbox");
+            if (checkbox.checked) {
+                alert("A caixa está marcada");
+            } else {
+                alert("A caixa não está marcada");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
